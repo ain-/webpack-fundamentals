@@ -42,7 +42,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: ExtractTextPlugin.extract({
                     fallback: "style-loader",
-                    use: "css-loader!less-loader"
+                    use: "css-loader!autoprefixer-loader!less-loader"
                 })
             }
         ]
