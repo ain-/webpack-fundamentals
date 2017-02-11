@@ -46,7 +46,7 @@ module.exports = {
                 })
             },
             {
-                test: /\.(png|jpg)$/,
+                test: /\.(png|jpg|ttf|eot)$/,
                 exclude: /node_modules/,
                 loader: 'url-loader?limit=10000'
             }
