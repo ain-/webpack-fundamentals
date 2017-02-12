@@ -20,6 +20,11 @@ module.exports = {
                 test: /\.css$/,
                 exclude: /node_modules/,
                 loader: "style-loader!css-loader"
+            },
+            {
+                test: /\.json$/,
+                exclude: /node_modules/,
+                loader: "json-loader!" + path.resolve('loaders/strip')
             }
         ]
     },
