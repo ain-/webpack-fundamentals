@@ -1,0 +1,20 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "compile": "webpack"
+  },
+  "dependencies": {
+    "ejs" : "^2.5.5",
+    "express": "^4.14.1",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "node-libs-browser": "^2.0.0",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0"
+  }
+}
